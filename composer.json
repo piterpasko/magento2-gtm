@@ -1,5 +1,5 @@
 {
-    "name": "madepeople/magento2-gtm",
+    "name": "piterpasko/magento2-gtm",
     "description": "A Magento 2 gtm model",
     "type": "magento2-module",
     "version": "1.0.0",
