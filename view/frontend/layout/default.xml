@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="head.additional">
+            <block class="Madepeople\GTM\Block\GTM" name="madepeople_gtm" template="Madepeople_GTM::gtm.phtml" />
+        </referenceBlock>
+        <referenceContainer name="after.body.start">
+            <block class="Madepeople\GTM\Block\GTM" name="madepeople_noscript_gtm" template="Madepeople_GTM::gtm_noscript.phtml" />
+        </referenceContainer>
+    </body>
+</page>
